@@ -1,0 +1,22 @@
+package pack1;
+
+import java.util.Scanner;
+
+public class FirstCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int z, y, temp;
+		System.out.println("Enter z and y");
+		Scanner sc = new Scanner(System.in);   //User inputs two numbers
+		z = sc.nextInt();   //User inputs two numbers
+		y = sc.nextInt();
+		System.out.println("Before Swapping\nz = "+z+"\ny = "+y);
+		temp = z;   //Swapping is done
+		z = y;
+		y = temp;
+		System.out.println("After Swapping\nz = "+z+"\ny = "+y);
+
+	}
+
+}
